@@ -1,0 +1,111 @@
+﻿<Window x:Class="GUI_Przychodnia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI_Przychodnia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000">
+    <Grid Margin="0,0,0,-6">
+        <GroupBox HorizontalAlignment="Left" Height="414" Header="1. Dane Osobwe" VerticalAlignment="Top" Width="306" Margin="10,10,0,0">
+            <StackPanel Margin="5">
+                <Label Content="Imie:" Height="25" Width="280"/>
+                <TextBox x:Name="txtImie" Height="25" Width="280" Margin="0,0,0,2"/>
+                <Label Content="Nazwisko:" Height="25" Width="280"/>
+                <TextBox x:Name="txtNazwisko" Height="25" Width="280" Margin="0,0,0,2"/>
+                <Label Content="PESEL:" Height="25" Width="280"/>
+                <TextBox x:Name="txtPesel" Height="25" Width="280" Margin="0,0,0,2"/>
+                <Label Content="Rola w systemie:" Height="25" Width="280"/>
+                <ComboBox x:Name="cmbTyp" Height="25" Width="280" SelectionChanged="cmbTyp_SelectionChanged" Margin="0,0,0,5">
+                    <ComboBoxItem Content="Lekarz"/>
+                    <ComboBoxItem Content="Pacjent"/>
+                </ComboBox>
+                <Grid x:Name="OpcjeLekarz" Visibility="Collapsed" Margin="-5,0,-5,5">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Content="OPCJE LEKARZA" FontWeight="Bold" Margin="5,5,0,0"/>
+
+                    <Label Grid.Row="1" Content="Specjalizacja:" Margin="5,0,0,0"/>
+                    <ComboBox Grid.Row="2" x:Name="cmbSpecjalizacja" Height="25" Margin="5,0,5,2"/>
+
+                    <Label Grid.Row="3" Content="Numer PWZ:" Margin="5,0,0,0"/>
+                    <TextBox Grid.Row="4" x:Name="txtPWZ" Height="25" Margin="5,0,5,5"/>
+
+                </Grid>
+                <Button x:Name="btnDodaj" Click="BtnDodaj_Click" Content="Dodaj" Height="25" Width="120" Margin="0,0,0,0" FontWeight="Bold"/>
+                <Button x:Name="btnOdswierz"  Content="Ośwież Widok" Height="25" Width="120" Margin="0,5,0,0" FontWeight="Bold" Click="btnOdswierz_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="2. Operacje i Baza" HorizontalAlignment="Left" VerticalAlignment="Top" Width="306" Height="217" Margin="10,429,0,0">
+            <StackPanel Margin="5">
+                <Label Content="Sortowanie" FontWeight="Bold" Margin="0,0,0,2"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Click="BtnSortujWiek_Click" Content="Najstarsi" Grid.Column="0" Height="25" Width="100"/>
+                    <Button Click="BtnSortujWiekRosnaco_Click" Content="Najmłodsi" Grid.Column="1" Height="25" Width="100"/>
+                </Grid>
+                <Label Content="Filtr lekarzy" FontWeight="Bold" Margin="0,0,0,2"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cmbFiltrSpecjalizacja" Height="25" Width="100" Grid.Column="0"/>
+                    <Button Click="BtnFiltruj_Click" Content="Szukaj" Grid.Column="1" Height="25" Width="100"/>
+                </Grid>
+                <Label Content="Pliki XML:" FontWeight="Bold" Margin="0,0,0,2"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Click="BtnZapiszXML_Click" Content="Zapisz" Grid.Column="0" Height="25" Width="100"/>
+                    <Button Click="BtnWczytajXML_Click" Content="Wczytaj" Grid.Column="1" Height="25" Width="100"/>
+                </Grid>
+                <TextBlock x:Name="lblStatus" Text="Gotowy."  Margin="0,5,0,0"/>
+            </StackPanel>
+        </GroupBox>
+        <DataGrid x:Name="gridOsoby" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top" Width="650">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Typ" Binding="{Binding Typ}" Width="60"/>
+                <DataGridTextColumn Header="Imie" Binding="{Binding Imie}" Width="100"/>
+                <DataGridTextColumn Header="Nazwisko" Binding="{Binding Nazwisko}" Width="120"/>
+                <DataGridTextColumn Header="PESEL" Binding="{Binding Pesel}" Width="100"/>
+                <DataGridTextColumn Header="Wiek" Binding="{Binding Wiek}" Width="50"/>
+                <DataGridTextColumn Header="Data Urodzenia" Binding="{Binding DataUrodzenia}" Width="130"/>
+                <DataGridTextColumn Header="Specjalizacja" Binding="{Binding Specjalizacja}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Header="Podsumowanie kliniki" VerticalAlignment="Bottom" Height="144" Margin="340,0,15,88">
+    <StackPanel Margin="10" VerticalAlignment="Center">
+        
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Liczba pacjentów: " FontWeight="Bold" FontSize="16"/>
+            <TextBlock x:Name="txtLiczbaPacjentow" Text="0" FontSize="16"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="Liczba lekarzy: " FontWeight="Bold" FontSize="16"/>
+            <TextBlock x:Name="txtLiczbaLekarzy" Text="0" FontSize="16"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Średni wiek: " FontWeight="Bold" FontSize="16"/>
+            <TextBlock x:Name="txtSredniWiek" Text="0,0" FontSize="16"/>
+        </StackPanel>
+
+    </StackPanel>
+</GroupBox>
+        <Button x:Name="HistoriaButton" Content="Historia Chorób Pacjenta" HorizontalAlignment="Left" Height="39" Margin="340,607,0,0" VerticalAlignment="Top" Width="160" Click="HistoriaButton_Click"/>
+    </Grid>
+</Window>

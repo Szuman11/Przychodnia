@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\lekarz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\lekarz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\historiachorobwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\historiachorobwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\historiachorobwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\historiachorobwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|c:\\users\\joann\\downloads\\przychodnia_projekt_poprawiony\\przychodniaprojekt-main\\gui_przychodnia\\gui_przychodnia\\pacjent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C115FE52-F4FA-4197-A732-75F46F5A327D}|GUI_Przychodnia\\GUI_Przychodnia.csproj|solutionrelative:gui_przychodnia\\pacjent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoriaChorobWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\HistoriaChorobWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\HistoriaChorobWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\HistoriaChorobWindow.xaml.cs",
+              "RelativeToolTip": "GUI_Przychodnia\\HistoriaChorobWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:21:10.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lekarz.cs",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\Lekarz.cs",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\Lekarz.cs",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\Lekarz.cs",
+              "RelativeToolTip": "GUI_Przychodnia\\Lekarz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T11:58:59.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pacjent.cs",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\Pacjent.cs",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\Pacjent.cs",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\Pacjent.cs",
+              "RelativeToolTip": "GUI_Przychodnia\\Pacjent.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T11:56:59.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI_Przychodnia\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAApwKIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:49:56.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\MainWindow.xaml",
+              "RelativeToolTip": "GUI_Przychodnia\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-12T16:49:58.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HistoriaChorobWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\HistoriaChorobWindow.xaml",
+              "RelativeDocumentMoniker": "GUI_Przychodnia\\HistoriaChorobWindow.xaml",
+              "ToolTip": "C:\\Users\\joann\\Downloads\\Przychodnia_Projekt_Poprawiony\\PrzychodniaProjekt-main\\GUI_Przychodnia\\GUI_Przychodnia\\HistoriaChorobWindow.xaml",
+              "RelativeToolTip": "GUI_Przychodnia\\HistoriaChorobWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T12:14:10.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
